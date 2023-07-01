@@ -1,0 +1,7 @@
+Data 1:
+Nama: Aldi
+Umur: 19
+Jenis Kelamin: Laki-laki
+Tanggal Lahir: 2023-07-01
+Alamat : sumedang
+
