@@ -108,6 +108,7 @@ elif menu == 'Kotak Saran':
     st.title("Kotak Saran")
     st.write("Silakan berikan masukan, saran, atau komentar Anda:")
     message = st.text_area("Pesan")
+    st.write(':red[Klik icon kirim dibawah untuk memberikan saran]')
 def main():
     if st.button("Kirim"):
         st.success("Pesan berhasil dikirim. Terima kasih!")
@@ -165,4 +166,6 @@ with col3:
     st.write('Jam Besuk Pukul 17.00-20.00 WIB')
     st.write(':red[NOTE]')
     st.write('Anak usia dibawah 14 tahun tidak diperkenankan masuk kedalam ruang perawatan, Terima kasih.')
+if __name__ == "__main__":
+    main()
 
